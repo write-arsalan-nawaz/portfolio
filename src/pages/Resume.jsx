@@ -4,15 +4,14 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/sajib.pdf"
+import pdf from "../assets/arsalan.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/write-arsalan-nawaz/portfolio/main/src/assets/arsalan.pdf`
-
+const resumeLink = pdf;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -31,6 +30,7 @@ const Resume = () => {
             variant="primary"
             href={pdf}
             target="_blank"
+            download="arsalan_resume.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -49,6 +49,7 @@ const Resume = () => {
             variant="primary"
             href={pdf}
             target="_blank"
+            download="arsalan_resume.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
