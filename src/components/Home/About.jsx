@@ -4,10 +4,9 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter
+  AiFillFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 
 
@@ -21,25 +20,23 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Arsalan Nawaz </span>
+                 and I'm from <span className="yellow"> Pakistan.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                With over 5 years of hands-on experience in front-end and back-end development, system administration, and test-driven development (TDD).
                 <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
+                <br />  
+                  I bring a strong and diverse skill set to the table.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                    <b className="yellow"> Ruby on Rails </b>
+                    and also love working in other programming languages and frameworks such as GraphQL, Wordpress,
+                  <b className="yellow"> TypeScript, and StimulusJS.</b>
                   <br />
                   <br />
                   I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
+                  with <b className="yellow">Ruby, PostgreSQL,</b> and
                   <i>
                     <b className="yellow">
                       {" "}
@@ -77,7 +74,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/write-arsalan-nawaz"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -88,18 +85,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/iamarsalannawaz/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -110,13 +96,13 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://leetcode.com/19sajib/"
+                      href="https://web.facebook.com/arslan.nawaz.106/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
+                      className="icon-colour  home-social-icons"
+                      aria-label="facebook"
                     >
-                      <SiLeetcode />
+                      <AiFillFacebook />
                     </a>
                   </li>
                 </ul>

@@ -3,10 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
+import tourBookingPortal from "../assets/projects/tourBookingPortal.png";
+import audioLicensingPlatform from "../assets/projects/audioLicensingPlatform.png";
+import fitnessApp from "../assets/projects/fitnessApp.png";
+import legalPortal from "../assets/projects/legalPortal.png";
+import ecommerceWebsite from "../assets/projects/ecommerceWebsite.png";
+import universityWebsite from "../assets/projects/universityWebsite.png";
+import bulkSmsProduct from "../assets/projects/bulkSmsProduct.png";
+import fitnessPlatform from "../assets/projects/fitnessPlatform.png";
 
 const Projects = () => {
   return (
@@ -22,62 +26,85 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lift}
+              imgPath={tourBookingPortal}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="Tour Booking Portal"
+              description="Developed using Ruby on Rails on backend and ReactJS on frontend along with GraphQL and other technologies, Junglebee is a tour booking portal designed for all companies offering any kind of tour services. Once on board, Junglebee uses embedded buttons on tour operator's website(s) to show widgets that are connected to our syste on the backend. From there on onwards, Junglebee takes cares of created bookings, handling payments, notifications, emails etc.
+I worked with them on contract basis for more than a year as a Full Stack Web developer / technical lead."
+              // ghLink="https://github.com/19sajib/lift-buddy"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={audioLicensingPlatform}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              title="Audio Licensing Platform"
+              description="Build with ReactJS and Ruby on Rails, Audiosocket is a platform designed to offer Audio, SFX and sounds licensing services to users. The app also ensures that there on no unlicensed usages of licensed tracks troughout Youtube. Bring your vision to life with access to over 85,000 songs and 25,000 sound effects used by the world’s biggest brands, influencers and top Hollywood studios. Your musical journey awaits."
+              // ghLink="https://github.com/19sajib/social-media"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={fitnessApp}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="Fitness App"
+              description="Developed with Ruby on Rails and GrapeAPI. After a lifetime of working in corporate gyms, personal training studios, and owning health clubs, the founders had seen every side of the fitness industry. But despite their extensive experience, they felt frustrated and dissatisfied. They realized the key to a profitable fitness brand was to include customized desktop and mobile apps with premium features. So they set out to build their own. Their goal was to create a platform that made it easy to build powerful fitness training plans that inspired clients to improve."
+              // ghLink="https://github.com/19sajib/mern-stack-ecommerce"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pg}
+              imgPath={bulkSmsProduct}
               isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              title="Bulk SMS Product"
+              description="A shopify plugin developed with Ruby on Rails, YipSMS is helping businesses of all sizes achieve remarkable results. With personalized campaigns and smart automation, our users have recovered thousands in lost sales and increased customer engagement by over 30%. Set up automated SMS campaigns to send timely messages that nurture leads and increase sales."
+              // ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
+              // demoLink="https://project-krypto.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={fitnessPlatform}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Fitness Platform"
+              description="Buildt using Wordpress, WPBakery, ContactForm7 etc. the vision at Primefit is to empower individuals to take control of their health and wellness through personalised coaching and support. We believe that everyone deserves access to the tools and resources they need to live a happy, healthy, and fulfilling life."
+              // ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
+              // demoLink="https://project-krypto.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={legalPortal}
               isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
+              title="Legal Platform"
+              description="Implemented with Ruby on Rails, StimulusJS and Docassemble, Funding Pro is an all in one solution to bring your legal documents from the physical to the electronic world. All kinds of legal documents can be generated with user data in real time and provided in PDF, Word etc. forms."
+              // ghLink="https://github.com/19sajib/mern-blog-app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerceWebsite}
+              isBlog={false}
+              title="E-Commerce Website"
+              description="A Wordpress and Elementor project, Vezahra Removals is a simple website to introdcue users to Packers and movers service in the UK."
+              // ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
+              // demoLink="https://project-krypto.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={universityWebsite}
+              isBlog={false}
+              title="University Website"
+              description="Made using Wordpress and Elementor, this website introduces visitors to the various offerings of the Institute of Art and Culture in Lahore, Pakistan."
+              // ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
           </Col>
         </Row>

@@ -5,6 +5,7 @@ import {
   DiReact,
   DiNodejs,
   DiGit,
+  DiRuby
 } from "react-icons/di";
 import {
   SiMaterialui,
@@ -12,12 +13,21 @@ import {
   SiSolidity,
   SiRedux,
   SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiPostgresql,
+  SiStimulus,
+  SiWordpress
 } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiRuby />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
@@ -25,25 +35,19 @@ const Techstack = () => {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiStimulus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiWordpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

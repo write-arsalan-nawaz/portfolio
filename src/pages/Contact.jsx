@@ -3,12 +3,14 @@ import { Container } from "react-bootstrap";
 import Particle from '../components/Particle';
 import ContactForm from '../components/Contact/Contact';
 import Social from '../components/Contact/Social';
+import ContactInfo from '../components/Contact/ContactInfo'
 
 const Contact = () => {
   return (
     <Container style={{padding: '60px'}}>
       <Particle />
-      <ContactForm />
+      <ContactInfo />
+      {/* <ContactForm /> */}
       <Social />
     </Container>
   )

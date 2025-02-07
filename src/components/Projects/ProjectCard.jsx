@@ -38,7 +38,7 @@ const ProjectCard = (props) => {
         <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
           {props.description}
         </Card.Text>
-        <Button
+        {/* <Button
           variant="primary"
           href={props.ghLink}
           target="_blank"
@@ -54,7 +54,7 @@ const ProjectCard = (props) => {
         >
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+        </Button> */}
         {"\n"}
         {"\n"}
 

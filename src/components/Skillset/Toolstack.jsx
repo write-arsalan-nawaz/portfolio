@@ -5,7 +5,8 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
-  SiNetlify
+  SiNetlify,
+  SiAmazonaws
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -18,7 +19,7 @@ const Toolstack = () => {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />

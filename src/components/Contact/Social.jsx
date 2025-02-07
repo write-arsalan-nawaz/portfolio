@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter
+  AiFillFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
@@ -20,44 +20,37 @@ const Social = () => {
                 </p>
                 </div>
                 <ul className="contact-social-links">
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/write-arsalan-nawaz"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="github"
                     >
                       <AiFillGithub />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://www.linkedin.com/in/iamarsalannawaz/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="linkedin"
                     >
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="hhttps://leetcode.com/19sajib/"
+                      href="https://web.facebook.com/arslan.nawaz.106/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="facebook"
                     >
-                      <SiLeetcode />
+                      <AiFillFacebook />
                     </a>
                   </li>
                 </ul>
