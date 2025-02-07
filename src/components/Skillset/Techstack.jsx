@@ -3,16 +3,12 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiGit,
   DiRuby
 } from "react-icons/di";
 import {
-  SiMaterialui,
   SiGraphql,
-  SiSolidity,
   SiRedux,
-  SiMongodb,
   SiHtml5,
   SiPostgresql,
   SiStimulus,

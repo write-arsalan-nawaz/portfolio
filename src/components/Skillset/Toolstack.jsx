@@ -4,7 +4,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
   SiNetlify,
   SiAmazonaws
 } from "react-icons/si";

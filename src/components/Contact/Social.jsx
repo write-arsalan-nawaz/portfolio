@@ -5,7 +5,6 @@ import {
   AiFillFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {

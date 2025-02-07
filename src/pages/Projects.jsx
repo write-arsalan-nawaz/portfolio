@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
 import tourBookingPortal from "../assets/projects/tourBookingPortal.png";
 import audioLicensingPlatform from "../assets/projects/audioLicensingPlatform.png";
 import fitnessApp from "../assets/projects/fitnessApp.png";
